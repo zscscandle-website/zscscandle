@@ -87,7 +87,7 @@ export default function CandleWebsite() {
   <p style={{ fontSize: "18px" }}>
     📞 Telefon:{" "}
     <a href="tel:+36706334104">
-      +36 30 123 4567
+      +36 706334104
     </a>
   </p>
 </section>
