@@ -3,6 +3,45 @@ export default function CandleWebsite() {
     <div style={{ fontFamily: "system-ui", margin: 0 }}>
 
       {/* Hero */}
+<section
+  style={{
+    position: "relative",
+    height: "70vh",
+    backgroundImage: "url('/images/hero.jpg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center"
+  }}
+>
+  {/* sötét overlay */}
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      backgroundColor: "rgba(0,0,0,0.4)"
+    }}
+  />
+
+  {/* szöveg */}
+  <div
+    style={{
+      position: "relative",
+      color: "white",
+      textAlign: "center",
+      padding: "20px"
+    }}
+  >
+    <h1 style={{ fontSize: "3rem", marginBottom: "10px" }}>
+      Zs&CsCandle
+    </h1>
+    <p style={{ fontSize: "1.2rem" }}>
+      Kézzel készített, letisztult gyertyák meghitt otthonokba
+    </p>
+  </div>
+</section>
+
       <section style={{ padding: "80px 20px", background: "#f5f3ef", textAlign: "center" }}>
         <h1>Zs&CsCandle</h1>
         <p>Kézzel készített, letisztult gyertyák meghitt otthonokba.</p>
