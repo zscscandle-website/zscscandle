@@ -63,24 +63,35 @@ export default function CandleWebsite() {
       </section>
 
       {/* KAPCSOLAT */}
-      <section style={{ padding: "60px 20px", maxWidth: "600px", margin: "0 auto" }}>
-        <h2>Kapcsolat</h2>
-        <form>
-          <input
-            placeholder="Név"
-            style={{ display: "block", width: "100%", marginBottom: "10px", padding: "8px" }}
-          />
-          <input
-            placeholder="Email"
-            style={{ display: "block", width: "100%", marginBottom: "10px", padding: "8px" }}
-          />
-          <textarea
-            placeholder="Üzenet"
-            style={{ display: "block", width: "100%", marginBottom: "10px", padding: "8px" }}
-          />
-          <button type="submit">Üzenet küldése</button>
-        </form>
-      </section>
+<section
+  style={{
+    padding: "60px 20px",
+    maxWidth: "600px",
+    margin: "0 auto",
+    textAlign: "center"
+  }}
+>
+  <h2>Kapcsolat</h2>
+
+  <p style={{ marginBottom: "20px" }}>
+    Ha kérdésed van vagy rendelni szeretnél, keress minket bátran:
+  </p>
+
+  <p style={{ fontSize: "18px", marginBottom: "10px" }}>
+    📧 Email:{" "}
+    <a href="mailto:justmeandyou20241212@gmail.com">
+      justmeandyou20241212@gmail.com
+    </a>
+  </p>
+
+  <p style={{ fontSize: "18px" }}>
+    📞 Telefon:{" "}
+    <a href="tel:+36706334104">
+      +36 30 123 4567
+    </a>
+  </p>
+</section>
+
 
       {/* FOOTER */}
       <footer style={{ textAlign: "center", padding: "20px", fontSize: "14px" }}>
