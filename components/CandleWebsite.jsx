@@ -56,9 +56,9 @@ export default function CandleWebsite() {
       <section style={{ padding: "60px 20px", background: "#fafafa" }}>
         <h2 style={{ textAlign: "center" }}>Gyertyáink</h2>
         <ul style={{ maxWidth: "600px", margin: "20px auto", lineHeight: "1.8" }}>
-          <li>Levendula illatú gyertya</li>
-          <li>Vanília illatú gyertya</li>
-          <li>Fahéj illatú gyertya</li>
+          <li>különböző féle desszert gyertyák</li>
+          <li>forma gyertyák</li>
+          <li>édes illatú gyertyák</li>
         </ul>
       </section>
 
